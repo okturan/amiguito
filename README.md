@@ -6,26 +6,26 @@ a tiny animated companion for your [Claude Code](https://docs.anthropic.com/en/d
 
 ## what is this?
 
-amiguito is a little character that lives in the bottom of your Claude Code terminal. it reacts to what you're doing — time of day, how long you've been coding, the weather outside, your birthday, and more.
+amiguito is a little character that lives in the bottom of your Claude Code terminal. it reacts to what you're doing - time of day, how long you've been coding, the weather outside, your birthday, and more.
 
 built entirely in bash with unicode art and ANSI colors. no dependencies required (optional ones make it prettier).
 
 ## features
 
-- **5 rotating hats** — gorrito, sombrero, boina, fiesta, mago
-- **seasonal hats** — santa (dec), witch (oct/friday 13th), heart (feb 14), new year (jan 1), birthday cake
-- **animated expressions** — blinks, smiles, sleepy eyes based on mood
-- **100+ spanish messages** — time-aware, day-aware, session-duration-aware
-- **companions** — 1 in 4 chance a friend appears (bird, cat, butterfly, flower, star, or a bebé clawd)
-- **secret companion** — 1 in 100 chance of the mysterious §
-- **shiny mode** — 1 in 50 chance of golden amiguito ✦
-- **rainbow mode** — 1 in 80 chance (requires `lolcat`)
-- **accessories** — glasses, bowtie, flower, scarf
-- **weather** — shows real weather from [Open-Meteo](https://open-meteo.com/) (free, no API key)
-- **claude state awareness** — reacts to context window usage, cost milestones, lines written
-- **sleep/wake detection** — knows when you've been away
-- **birthday mode** — cake hat + special messages on your birthday
-- **easter eggs** — 11:11 wishes, 4:04 not found, midnight magic, pi day, leap day
+- **5 rotating hats** - gorrito, sombrero, boina, fiesta, mago
+- **seasonal hats** - santa (dec), witch (oct/friday 13th), heart (feb 14), new year (jan 1), birthday cake
+- **animated expressions** - blinks, smiles, sleepy eyes based on mood
+- **100+ spanish messages** - time-aware, day-aware, session-duration-aware
+- **companions** - 1 in 4 chance a friend appears (bird, cat, butterfly, flower, star, or a bebé clawd)
+- **secret companion** - 1 in 100 chance of the mysterious §
+- **shiny mode** - 1 in 50 chance of golden amiguito ✦
+- **rainbow mode** - 1 in 80 chance (requires `lolcat`)
+- **accessories** - glasses, bowtie, flower, scarf
+- **weather** - shows real weather from [Open-Meteo](https://open-meteo.com/) (free, no API key)
+- **claude state awareness** - reacts to context window usage, cost milestones, lines written
+- **sleep/wake detection** - knows when you've been away
+- **birthday mode** - cake hat + special messages on your birthday
+- **easter eggs** - 11:11 wishes, 4:04 not found, midnight magic, pi day, leap day
 - **auto-sizing speech bubbles** (requires `gum`)
 
 ## install
@@ -56,8 +56,8 @@ weather_city=Istanbul
 brew install gum lolcat
 ```
 
-- **gum** — auto-sizing speech bubbles (without it, uses fixed-width fallback)
-- **lolcat** — enables the rare rainbow mode
+- **gum** - auto-sizing speech bubbles (without it, uses fixed-width fallback)
+- **lolcat** - enables the rare rainbow mode
 
 ## how it works
 
